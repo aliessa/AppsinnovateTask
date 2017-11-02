@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.task.aliessa.appsinnovatetask.MainActivity">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/Btn_share_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:id="@+id/Btn_Load_contact"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim30"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:background="@color/com_facebook_button_login_background_color"
+        android:text="@string/load_your_contacts"
+        android:textColor="@color/com_facebook_button_text_color" />
+
+    <Button
+        android:id="@+id/Btn_Map"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim30"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Btn_Load_contact"
+        android:layout_marginTop="11dp"
+        android:background="@color/com_facebook_button_login_background_color"
+        android:text="@string/go_to_map"
+        android:textColor="@color/com_facebook_button_text_color" />
+
+    <Button
+        android:id="@+id/Btn_Calender"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim30"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Btn_Map"
+        android:layout_marginTop="11dp"
+        android:background="@color/com_facebook_button_login_background_color"
+        android:text="@string/add_calender"
+        android:textColor="@color/com_facebook_button_text_color" />
+
+    <Button
+        android:id="@+id/Btn_share_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim30"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Btn_Calender"
+        android:layout_marginTop="11dp"
+        android:background="@color/com_facebook_button_login_background_color"
+        android:text="@string/share_photo"
+        android:textColor="@color/com_facebook_button_text_color" />
+</RelativeLayout>

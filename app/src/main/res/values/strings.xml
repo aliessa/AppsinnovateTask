@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppsinnovateTask</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="facebook_app_id">136128793776120</string>
+    <string name="fb_login_protocol_scheme">fb136128793776120</string>
+    <string name="user_name">User Name</string>
+    <string name="load_your_contacts">Load Your contacts</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="go_to_map">Go TO Map</string>
+    <string name="add_calender">Add Calender</string>
+    <string name="share_photo">Share Photo</string>
+    <string name="share">Share</string>
+    <string name="add_photo">Add photo</string>
+
+</resources>
